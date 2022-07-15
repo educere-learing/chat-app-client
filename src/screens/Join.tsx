@@ -14,6 +14,7 @@ const Join = () => {
 
   const handleJoin = () => {};
   console.log("name, room", credential);
+
   return (
     <div className='joinOuterContainer'>
       <div className='joinInnerContainer'>

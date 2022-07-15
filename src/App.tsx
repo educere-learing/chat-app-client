@@ -1,10 +1,15 @@
+import { Routes, Route } from "react-router-dom";
 import Join from "./screens/Join";
+import Chat from "./screens/Chat";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <Join />
+      <Routes>
+        <Route path='/' element={<Join />} />
+        <Route path='chat' element={<Chat />} />
+      </Routes>
     </div>
   );
 }
